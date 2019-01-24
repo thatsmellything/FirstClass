@@ -10,8 +10,14 @@
 
 int main()
 {
-    Controller myFirstController;
-    myFirstController.start();
+//    Controller myFirstController;
+//    myFirstController.start();
+  
+    
+    //pointer version------
+    Controller * myPointer = new Controller();
+    myPointer->start();
+    
     
     return 0;
 }
