@@ -6,9 +6,12 @@
 //  Copyright © 2019 Judkins, Jensen. All rights reserved.
 //
 
+#include "COntroller.hpp"
+
 int main()
 {
-    
+    Controller myFirstController;
+    myFirstController.start();
     
     return 0;
 }
